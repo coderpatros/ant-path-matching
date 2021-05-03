@@ -1,3 +1,7 @@
+[![Build Status](https://github.com/coderpatros/ant-path-matching/workflows/.NET%20Core%20CI/badge.svg)](https://github.com/coderpatros/ant-path-matching/actions?workflow=.NET+Core+CI)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](License)
+[![NuGet Version](https://img.shields.io/nuget/v/CoderPatros.AntPathMatching.svg)](https://www.nuget.org/packages/CoderPatros.AntPathMatching/)
+
 # Ant Path Matching
 
 Package for matching paths (files, directories) using the apache ant-style.
