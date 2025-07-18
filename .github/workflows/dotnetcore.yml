@@ -1,5 +1,5 @@
 # For details of what checks are run for PRs please refer below
-name: .NET Core CI
+name: .NET CI
 
 on: [pull_request, workflow_dispatch]
 
@@ -16,12 +16,12 @@ jobs:
         run: dotnet build /WarnAsError
 
   test:
-    name: Tests for .net core ${{ matrix.framework }} on ${{ matrix.os }}
+    name: Tests for .NET ${{ matrix.framework }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        framework: ['3.1']
+        framework: ['8.0']
     timeout-minutes: 30
     
     steps:
